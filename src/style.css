@@ -23,6 +23,9 @@ h2 {
 ul {
   margin: 0;
   padding: 0;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
 }
 
 li {
@@ -33,7 +36,6 @@ li {
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
-  text-align: center;
 }
 
 .weather-app-wrapper {
@@ -43,15 +45,21 @@ li {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #cae5e5;
+  border: 1px solid #636d83;
   border-radius: 5px;
-  background-color: #cae5e5;
+  background-color: #636d83;
+}
+
+.ul-wrapper {
+  text-align: center;
 }
 
 #city {
   font-weight: bold;
 }
 
-#weather-illustration {
+#weather-icon {
   text-align: center;
+  font-size: 100px;
+  color: #ffffff;
 }
