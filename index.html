@@ -10,11 +10,13 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <script
       src="https://kit.fontawesome.com/0b0be9e4a7.js"
       crossorigin="anonymous"
     ></script>
+
     <title>Weather App</title>
   </head>
   <body>
@@ -24,21 +26,21 @@
           <h1>
             <span id="city">São Paulo</span> <span id="country">Brazil</span>
           </h1>
-          <h2>Friday 09:58</h2>
+          <ul class="current-info">
+            <li>Friday 09:58</li>
+            <li>Rainy</li>
+          </ul>
           <div class="row">
-            <div class="col-4 ul-wrapper">
-              <ul>
-                <li>Broken Clouds</li>
-                <li>12 °C °F</li>
-              </ul>
+            <div class="col-4 current-temperature">
+              <strong>12</strong><span class="units">°C | °F</span>
             </div>
             <div class="col-4" id="weather-icon">
               <i class="fas fa-cloud-rain"></i>
             </div>
             <div class="col-4 ul-wrapper">
-              <ul>
-                <li>Humidity: 73%</li>
-                <li>Precipitation: 0%</li>
+              <ul class="weather-details">
+                <li class="extra-info">Humidity: 73%</li>
+                <li class="extra-info">Precipitation: 0%</li>
               </ul>
             </div>
           </div>
