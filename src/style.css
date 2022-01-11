@@ -22,6 +22,10 @@ li {
   padding: 0;
 }
 
+li:first-letter {
+  text-transform: capitalize;
+}
+
 .weather-app-wrapper {
   max-width: 600px;
   margin: 30px auto;
@@ -38,7 +42,6 @@ li {
   color: #ffffff;
   font-size: 18px;
   font-weight: 100;
-  text-transform: capitalize;
   line-height: 20px;
   text-align: center;
   margin-bottom: 40px;
