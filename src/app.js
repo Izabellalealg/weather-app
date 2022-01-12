@@ -45,7 +45,7 @@ function displayTemperature(response) {
 }
 
 let apiKey = "d580e6c1aa2d191b7d677dcaa33f3840";
-let city = "TSão Paulo";
+let city = "São Paulo";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
