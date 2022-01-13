@@ -62,6 +62,10 @@ li:first-letter {
   top: -30px;
 }
 
+.current-temperature .active {
+  cursor: default;
+}
+
 .ul-wrapper {
   text-align: center;
 }
@@ -80,6 +84,10 @@ li:first-letter {
   line-height: 24px;
 }
 
+.git-link {
+  text-decoration: none;
+}
+
 #city {
   font-weight: bold;
 }
@@ -92,4 +100,14 @@ li:first-letter {
   width: 90%;
   height: auto;
   vertical-align: top;
+}
+
+#celsius-link {
+  color: white;
+  text-decoration: none;
+}
+
+#fahrenheit-link {
+  color: white;
+  text-decoration: none;
 }
