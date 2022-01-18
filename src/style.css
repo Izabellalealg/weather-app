@@ -1,9 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background: #fffbe2;
 }
 
 h1 {
-  color: #ffffff;
+  color: #272142;
   font-size: 24px;
   font-weight: 100;
   line-height: 29px;
@@ -33,13 +34,31 @@ li:first-letter {
 
 .weather-app {
   padding: 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #fffbe2;
   border-radius: 5px;
-  background: linear-gradient(to left top, #e7ddf6, #8397d4);
+  background: #ffffff;
+}
+
+.form-control {
+  background: #fffbe2;
+  border-color: #fffbe2;
+}
+
+.btn-secondary {
+  background-color: #e2c300;
+  border-color: #e2c300;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff;
+  border-color: #e2c300;
+  color: #e2c300;
+  font-weight: bold;
 }
 
 .current-info {
-  color: #ffffff;
+  color: #8a8a8a;
   font-size: 18px;
   font-weight: 100;
   line-height: 20px;
@@ -47,7 +66,7 @@ li:first-letter {
 }
 
 .current-temperature {
-  color: white;
+  color: #272142;
   text-align: center;
   position: relative;
   top: 34px;
@@ -78,14 +97,23 @@ li:first-letter {
 }
 
 .extra-info {
-  color: #ffffff;
+  color: #8a8a8a;
   font-size: 16px;
   font-weight: 100;
   line-height: 24px;
 }
 
+.value {
+  color: #ff6d6d;
+}
+
 .git-link {
   text-decoration: none;
+  color: #e2c300;
+}
+.git-link:hover {
+  text-decoration: underline;
+  color: #e2c300;
 }
 
 #city {
@@ -103,11 +131,19 @@ li:first-letter {
 }
 
 #celsius-link {
-  color: white;
+  color: #272142;
   text-decoration: none;
 }
 
+#celsius-link:hover {
+  color: #ff6d6d;
+}
+
 #fahrenheit-link {
-  color: white;
+  color: #272142;
   text-decoration: none;
+}
+
+#fahrenheit-link:hover {
+  color: #ff6d6d;
 }
