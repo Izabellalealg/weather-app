@@ -149,21 +149,3 @@ li:first-letter {
   height: auto;
   vertical-align: top;
 }
-
-#celsius-link {
-  color: #272142;
-  text-decoration: none;
-}
-
-#celsius-link:hover {
-  color: #ff6d6d;
-}
-
-#fahrenheit-link {
-  color: #272142;
-  text-decoration: none;
-}
-
-#fahrenheit-link:hover {
-  color: #ff6d6d;
-}
